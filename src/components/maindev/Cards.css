@@ -1,0 +1,31 @@
+.Main-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 220px 220px;
+    grid-gap: 10px;
+    padding: 10px;
+    position: relative;
+    color: #fff;
+    width: 82%;
+    top:170px;
+    left: 200px; 
+}
+.card-content{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+}
+.icons {
+    margin-top: 80px;
+    align-self: flex-end;
+    
+}
+.icons i{
+    color:rgb(165, 165, 22);
+    font-size: 1.5rem;
+    display: inline;
+    padding: 10px;
+    
+}
